@@ -14,4 +14,4 @@
 *.out
 
 # Files
-cucumber/report/cucumber.json
+cucumber/report.json
