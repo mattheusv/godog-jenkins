@@ -3,8 +3,6 @@ node{
         stage('checkout repository'){
             git branch: 'master',
             url: 'https://github.com/msalcantara/godog-jenkins'
-            sh 'pwd'
-            sh 'ls'
         }
         
         stage('pull dependencies'){
