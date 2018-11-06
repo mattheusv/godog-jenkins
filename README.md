@@ -1,11 +1,14 @@
 # godog-jenkins
-Project example of run cucumber tests with godog in jenkins
+Example of run cucumber tests with godog in jenkins
     
 # Configure Jenkins
-Follow this [tutorial](https://blog.couchbase.com/create-continuous-deployment-pipeline-golang-jenkins/) to configure your jenkins to run Golang programs 
+Create a jenkins container with Go installed using base Dockerfile in Docker/
 
 # Configure Cucumber Reports on Jenkins
-Follow this [tutorial](https://medium.com/@papito/um-poquito-de-devops-com-jenkins-docker-cucumber-tests-e-reports-parte-2-39653b23fc00) to configure cucumber reports in your jenkins
+Install Cucumber reports plugin in your jenkins
+
+# Run
+You can use Jenkinsfile to create your pipelines and run cucumber tests with Go :D
 
 # Project
 This test make a request in GitHub API and verific if http status code is 200
