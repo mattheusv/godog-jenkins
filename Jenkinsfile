@@ -10,7 +10,7 @@ node{
         }
         
         stage('run tests'){
-            sh 'build.sh'
+            sh 'sh build.sh'
         }
         
         stage('cucumber reports'){
