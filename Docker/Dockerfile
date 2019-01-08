@@ -6,8 +6,8 @@ RUN  apt-get update \
   && apt-get install -y wget \
   && rm -rf /var/lib/apt/lists\
   && apt-get install -y git\
-  && wget https://dl.google.com/go/go1.11.2.linux-amd64.tar.gz\
-  && tar -C /usr/local -xzf go1.11.2.linux-amd64.tar.gz
+  && wget https://dl.google.com/go/go1.11.4.linux-amd64.tar.gz\
+  && tar -C /usr/local -xzf go1.11.4.linux-amd64.tar.gz
 
 ENV PATH=$PATH:/usr/local/go/bin
 ENV GOPATH=/home/root/go
